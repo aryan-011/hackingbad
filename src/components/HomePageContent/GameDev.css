@@ -1,0 +1,31 @@
+.gamedev{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    background-color:antiquewhite;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 29%;
+}
+.heading-gamedev{
+    margin-bottom: 2rem;
+}
+.gamedev-para{
+    font-size: larger;
+}
+.bold-para{
+    font-weight: bolder;
+    color: #585555;
+    font-style: italic;
+}
+
+
+img{
+    height: 18.75rem;
+    width:34.375rem;
+}

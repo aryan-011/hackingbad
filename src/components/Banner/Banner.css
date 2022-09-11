@@ -1,0 +1,33 @@
+
+.banner{
+    
+    padding-top: 8rem;
+    background-image:url("../../../public/banner.jpg");
+    
+    height: 600px;
+    background-size: cover;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.tagline{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #EEEEEE;
+    font-family: "Montserrat";
+    font-weight: bold;
+    
+}
+
+.sitename{
+    text-transform: capitalize;
+    padding-bottom:1rem;
+    font-size: 6rem;
+    font-weight: bolder;
+    font-family: 'Sacramento', "cursive";
+    font-style: italic;
+}

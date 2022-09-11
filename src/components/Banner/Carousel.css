@@ -1,0 +1,18 @@
+.carousel{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    align-items: center;
+    padding-top: 2rem;
+}
+.carouselImage{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+}
+.carousel-content{
+    display: flex;
+    flex-direction: column;
+    color: #EEEEEE;
+    align-items: center;
+}

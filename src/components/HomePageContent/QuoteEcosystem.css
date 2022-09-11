@@ -1,0 +1,20 @@
+.background-banner{
+    
+    padding-top: 8rem;
+    background-image:url("../../../public/banner2.jpg");
+    
+    height: 400px;
+    background-size: cover;
+    border: 0;
+    margin-bottom: 1rem;
+
+    
+}
+.text-description-ecosystem{
+    margin-left: 3rem;
+    color:#9FC9F3;
+}
+.heading-ecosystem{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
