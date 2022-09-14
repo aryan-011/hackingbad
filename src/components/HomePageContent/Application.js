@@ -46,9 +46,8 @@ Apply Now
  <div className='perks'>
 <div style={{display:"flex",paddingTop:"7rem",flexDirection:"column",marginLeft:"11rem"}}>
 
-<div><InfoBanner /></div> 
-<div ><InfoBanner /></div> 
- 
+<InfoBanner />
+<InfoBanner /> 
   </div>
   <div style={{display:"flex",position:"absolute",paddingTop:"7rem",flexDirection:"column",left:"31%",top:"114rem"}}>
  <div><InfoBanner /></div>

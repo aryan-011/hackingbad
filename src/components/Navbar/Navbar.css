@@ -1,6 +1,6 @@
 .navbar{
     padding: 15px;
-background: url(../Footer/footerback.jpeg);
+background-image: url("../../../public/banner-quote.jpg");
 opacity: 0.97;
 }
 .nav-item{

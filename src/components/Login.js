@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Login.css"
+import QuoteEcosystem from "../components/HomePageContent/QuoteEcosystem"
 const Login = () => {
   return (
     <div className="login-box">
@@ -90,7 +91,7 @@ Link To Your Linkedin</label>
       Submit Application
     </a>
   </form>
-  <h2 className='form-space' id="fire-text">JOIN US!!!</h2>
+  
   
   </div>
 </div>

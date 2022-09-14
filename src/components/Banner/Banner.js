@@ -1,25 +1,23 @@
-import React from 'react'
-import "./Banner.css"
-import Carousel from './Carousel'
-import Navbar from '../Navbar/Navbar'
+import React from "react";
+import "./Banner.css";
+import Carousel from "./Carousel";
+
 const Banner = () => {
   return (
     <>
-    <Navbar/>
+    
       <div className="banner">
-      <div className='banner-content'>
-        <div className="tagline"><h1 className='sitename'>Skill Brewery</h1>
-      <p className='brand-name'> CODEVITA LIVE</p>
-      </div>
-      
-      <Carousel/>
+        <div className="banner-content">
+          <div className="tagline">
+            <h1 className="sitename">Skill Brewery</h1>
+            <p className="brand-name"> CODEVITA LIVE</p>
+          </div>
 
-
+          <Carousel />
+        </div>
       </div>
-      </div>
-      
     </>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;
