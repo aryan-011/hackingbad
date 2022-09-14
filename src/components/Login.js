@@ -4,6 +4,17 @@ import QuoteEcosystem from "../components/HomePageContent/QuoteEcosystem"
 const Login = () => {
   return (
     <div className="login-box">
+
+
+<video id="background-video" autoPlay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+  <source src="background-form.mp4" type="video/mp4"/></video>
+
+
+
+
+
+
+
   <h2 className='form-heading'>Taking in applications for the September cohort!</h2>
   <div className="pic-integrate">
   <form className='form-align'>

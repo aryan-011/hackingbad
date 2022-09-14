@@ -54,7 +54,11 @@ Apply Now
  <InfoBanner />
   </div>
 <div className='application-form'> <Login/></div>
+
+
+<div className='contact-for-query'></div>
  </div>
+
  
 
 

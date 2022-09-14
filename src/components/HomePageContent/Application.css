@@ -56,9 +56,9 @@
     flex-direction: column;
 }
 .perks{
-    height: 50rem;
+    height: 174rem;
     background-color: antiquewhite;
-    height: 100%;
+    
     overflow: hidden;
     
 }
@@ -67,4 +67,7 @@
     margin-left: 50%;
     padding-top: 20rem;
     margin-top: 30%;
+}
+.contact-for-query{
+    
 }
