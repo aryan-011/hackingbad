@@ -21,13 +21,8 @@ const Header = () => {
   const navigate=useNavigate();
 
   return (
-<<<<<<< Updated upstream
-    <ThemeProvider theme={darkTheme}>
-    {/* <AppBar color='transparent' position='static'>
-=======
     < >
     <AppBar style={{ background: 'rgb(41 40 62)' }} position='static'>
->>>>>>> Stashed changes
         <Container>
         <Toolbar>
         <Typography onClick={()=>navigate('/')} 
@@ -39,13 +34,8 @@ const Header = () => {
           
         </Toolbar>
         </Container>
-<<<<<<< Updated upstream
-    </AppBar> */}
-    </ThemeProvider>
-=======
     </AppBar>
     </>
->>>>>>> Stashed changes
  
   )
 }
