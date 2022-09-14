@@ -1,13 +1,10 @@
 .navbar {
     padding: 15px;
-<<<<<<< Updated upstream
 background-image: url("../../../public/banner-quote.jpg");
 opacity: 0.97;
-=======
     /* background: url(../Footer/footerback.jpeg); */
     opacity: 0.97;
     /* box-shadow: 0px 4px 20px 7px rgb(0 0 0 / 4%); */
->>>>>>> Stashed changes
 }
 
 .nav-fill {
