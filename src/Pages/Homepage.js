@@ -12,11 +12,8 @@ const Homepage = () => {
     <Banner/>
     <GameDev/>
     <Application/>
-<<<<<<< Updated upstream
     
-=======
     {/* <QuoteEcosystem/> */}
->>>>>>> Stashed changes
     <Footer/>
     </>
   )
