@@ -18,45 +18,47 @@ function Experience() {
           <div className={`${styles.col1}`}>
             <div className={`${styles.box} ${styles.box1}`}>
               <img src={searchIcon} alt="img" />
-              <h3>Our Mission</h3>
-              <ul>
-                <li>
-                  Integration of all therapies.
-                </li>
-                <li>
-                  Refinement of information.
-                </li>
-                <li>
-                  Verification of data.
-                </li>
-                </ul>
+              <h3>Commitment</h3>
+
+              <p>
+                5-6 hours a week/1 month
+              </p>
+              {/* <li>
+                  Devotion to the Internship
+                </li> */}
+
+
             </div>
             <div className={`${styles.box} ${styles.box2}`}>
               <img src={healthguardIcon} alt="img" />
-              <h3>Problems We Solve</h3>
+              <h3>
+
+                Perks
+              </h3>
               <ul>
                 <li>
-                Spread awareness about alternative therapies.
+                  Capstone Project Intensive
                 </li>
                 <li>
-                Help patients choose the right treatment.
+                  LinkedIn profile building
                 </li>
                 <li>
-                Affordable therapies to cure patients.
+                  24/7 Support
                 </li>
+                <li>Internship Completion Certificate</li>
               </ul>
             </div>
           </div>
           <div className={`${styles.col2}`}>
             <div className={`${styles.box} ${styles.box1}`}>
               <img src={healthcareIcon} alt="img" />
-              <h3>Our Vision</h3>
-              <p>To inspire hope, and contribute to health and well-being by providing the best alternative treatment to every patient.</p>
+              <h3>Iedal for</h3>
+              <p>Students pursuing any technical/managerial field at a graduate/undergraduate level</p>
             </div>
             <div className={`${styles.box} ${styles.box2}`}>
               <img src={syringeIcon} alt="img" />
-              <h3>Our Motive</h3>
-              <p>We want to help you own your well-being.</p>
+              <h3>Pricing</h3>
+              <p>We'd be lying if we say the Internship will cost you money because its free.</p>
             </div>
           </div>
         </div>
@@ -64,10 +66,9 @@ function Experience() {
           <div className={`${styles.col3}`}>
             <h2>What we do ?</h2>
             <p>
-            Internet contains huge amount of data in the form of testimonials of patients in the form of ebooks, website, youtube videos, articles which are scattered, unverified and unorganized.<br/><br/>
-            This website plans to collect various important data, refine them, verify them as much as possible and organize it systematically.
-            This systematically and verified data may help  a confused patient to draw important conclusions about his line of treatment.<br/><br/>
-            This website aims to include data from  all important therapies as well as details about important clinics, hospitals as well as groups. This is a mission by the people, for the people of the people.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam<br /><br />
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br /><br />
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
         </div>

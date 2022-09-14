@@ -1,7 +1,8 @@
-/* .experience_section{    
-    background-color: #F5F9FC;
-    justify-content: center;
-} */
+.experience_section{    
+    background-color: antiquewhite;
+
+    /* justify-content: center; */
+}
 .experience_section .part1{
     display:flex;
     align-items: center;
@@ -35,7 +36,7 @@
     height: 180px;
     width: 26vw;
     border-radius: 20px;
-    background-color: #2C698D;
+    /* background-color: #2C698D; */
     transition: transform .2s ease-in-out;
     z-index: 1;
 }
@@ -76,11 +77,12 @@
     height: auto;
     min-height: 770px;
     width: 90%;
-    background: linear-gradient(90deg, #E1E9F4 0%, #FFFFFF 100%, #FFFFFF 100%);
+    /* background: linear-gradient(90deg, #E1E9F4 0%, #FFFFFF 100%, #FFFFFF 100%); */
     border-radius: 25px;
     margin: 50px auto 0px;
     padding: 5% 5% 2%;
     display: flex;
+    margin-top: 0%;
     flex-direction: row;
 }
 .experience_section .part2 .left{
