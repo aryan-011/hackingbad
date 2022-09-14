@@ -8,7 +8,9 @@
 .carouselImage{
     height: 10rem;
     width: 10rem;
-    border-radius: 100%;
+    border-radius: 20%;
+    opacity: 0.7;
+    
 }
 .carousel-content{
     display: flex;

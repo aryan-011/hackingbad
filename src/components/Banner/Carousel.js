@@ -3,20 +3,26 @@ import AliceCarousel from 'react-alice-carousel'
 import "./Carousel.css"
 
 const carouselItem=[
-    {image:"carousel-img/cybersecurity.jpg",
-    name:"CyberSecurity"
-    },
-    {image:"carousel-img/competitive.jpg",
-    name:"Competitive Programming"
-    },
-    {image:"carousel-img/game-dev.jpg",
-    name:"Game Development"
-    },
-    {image:"carousel-img/quantum-computing.jpg",
-    name:"Quantum Computing"
+    {image:"carousel-img/computer-vision.jpg",
+    name:"ComputerVision"
     },
     {image:"carousel-img/data-science.jpg",
     name:"Data Science"
+    },
+    {image:"carousel-img/campus-ambassador.jpg",
+    name:"Campus Ambassador"
+    },
+    {image:"carousel-img/blockchain.jpg",
+    name:"BlockChain"
+    },
+    {image:"carousel-img/web-development.jpg",
+    name:"Web Development"
+    },
+    {image:"carousel-img/product-management.jpg",
+    name:"Product Management"
+    },
+    {image:"carousel-img/app-development.jpg",
+    name:"App Development"
     },
    
 ];

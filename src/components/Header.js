@@ -1,5 +1,5 @@
 import React from 'react'
-import { AppBar ,Container,createTheme,makeStyles,ThemeProvider,Toolbar,Typography } from '@material-ui/core';
+import { AppBar ,Container,makeStyles,Toolbar,Typography } from '@material-ui/core';
 import{ useNavigate} from "react-router-dom"; 
 
 const useStyles = makeStyles((theme) => ({
@@ -9,17 +9,10 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "Montserrat",
     fontWeight: "bold",
     cursor: "pointer",
+  
   },
 }));
 
-const darkTheme = createTheme({
-  palette: {
-    primary: {
-      main: "#fff",
-    },
-    type: "dark",
-  },
-});
 
 const Header = () => {
   
@@ -28,21 +21,31 @@ const Header = () => {
   const navigate=useNavigate();
 
   return (
+<<<<<<< Updated upstream
     <ThemeProvider theme={darkTheme}>
     {/* <AppBar color='transparent' position='static'>
+=======
+    < >
+    <AppBar style={{ background: 'rgb(41 40 62)' }} position='static'>
+>>>>>>> Stashed changes
         <Container>
         <Toolbar>
         <Typography onClick={()=>navigate('/')} 
         className={classes.title}
-        variant="h6">Crypto Chroma</Typography>
+        variant="h6">Codevita Live</Typography>
 
         
             
           
         </Toolbar>
         </Container>
+<<<<<<< Updated upstream
     </AppBar> */}
     </ThemeProvider>
+=======
+    </AppBar>
+    </>
+>>>>>>> Stashed changes
  
   )
 }

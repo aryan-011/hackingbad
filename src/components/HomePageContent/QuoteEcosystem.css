@@ -1,9 +1,9 @@
 .background-banner{
     
-    padding-top: 8rem;
-    background-image:url("../../../public/banner2.jpg");
+    padding-top: 6.9rem;
+    background-image: linear-gradient(to left,rgba(0, 17, 8, 0.7),rgba(2, 14, 65, 0.7)),url("../../../public/banner-quote.jpg");
     
-    height: 400px;
+    height: 300px;
     background-size: cover;
     border: 0;
     /* margin-bottom: 1rem; */

@@ -4,20 +4,25 @@ import "./button.css"
 const GameDev = () => {
   return (
     <div className='gamedev'>
-        <img className='gamedevimg' src="gamedevimg.gif" alt="GameDevelopment" height="300px" width="550re"></img>
+       
         <div className='description'>
-            <h2 className='heading-gamedev'>Introduction To Hypercasual Game Development(HYP101)
-</h2>
-<p className='gamedev-para'><span className='bold-para'>[Featured Course] </span>Learn the intricacies of hypercasual game development from scratch and go on to create several app, web,game development projects of your own through Codevita Live’s comprehensive HYP-101 Course.<span className='bold-para'> 8 weeks. 50 projects. Loads of fun.</span></p>
+            <h2 className='heading-gamedev'>Skill Brewery: Free Internship Program
 
-<a href="/" className="animated-button1">
+
+</h2>
+<p className='gamedev-para'>Work on cool hands-on projects to amplify your profile. Gain an internship certificate, work experience and mentoring after the completion of the programme.
+<br/>
+<br/>
+Choose a domain of your interest and get started now! Please note that you can only complete one internship function at a time and will have to wait at least one month before pursuing another function.</p>
+{/* <a href="/" className="animated-button1">
   <span></span>
   <span></span>
   <span></span>
   <span></span>
   Apply Now
-</a>
+</a> */}
         </div>
+        <img src="skill-brewery.gif" alt="Skill Brewery" className='study-img'></img>
     </div>
   )
 }

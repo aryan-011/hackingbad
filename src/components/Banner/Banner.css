@@ -1,8 +1,8 @@
 
 .banner{
     
-    padding-top: 8rem;
-    background-image:url("../../../public/banner.jpg");
+    padding-top: 6rem;
+    background-image:url("../../../public/banner2.jpg");
     
     height: 600px;
     background-size: cover;
@@ -18,8 +18,8 @@
     flex-direction: column;
     text-align: center;
     color: #EEEEEE;
-    font-family: "Montserrat";
-    font-weight: bold;
+    font-family: 'Cormorant Garamond',sans-serif;
+    
     
 }
 
@@ -28,6 +28,10 @@
     padding-bottom:1rem;
     font-size: 6rem;
     font-weight: bolder;
-    font-family: 'Sacramento', "cursive";
+    font-family: 'Helvelica Neue',sans-serif;
     font-style: italic;
+}
+.brand-name{
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
