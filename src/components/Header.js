@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <ThemeProvider theme={darkTheme}>
-    <AppBar color='transparent' position='static'>
+    {/* <AppBar color='transparent' position='static'>
         <Container>
         <Toolbar>
         <Typography onClick={()=>navigate('/')} 
@@ -41,7 +41,7 @@ const Header = () => {
           
         </Toolbar>
         </Container>
-    </AppBar>
+    </AppBar> */}
     </ThemeProvider>
  
   )

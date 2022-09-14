@@ -4,7 +4,7 @@ import "./button.css"
 const GameDev = () => {
   return (
     <div className='gamedev'>
-        <img src="gamedevimg.gif" alt="GameDevelopment" height="300px" width="550re"></img>
+        <img className='gamedevimg' src="gamedevimg.gif" alt="GameDevelopment" height="300px" width="550re"></img>
         <div className='description'>
             <h2 className='heading-gamedev'>Introduction To Hypercasual Game Development(HYP101)
 </h2>
