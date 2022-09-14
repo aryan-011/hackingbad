@@ -1,75 +1,106 @@
-.navbar{
+.navbar {
     padding: 15px;
+<<<<<<< Updated upstream
 background-image: url("../../../public/banner-quote.jpg");
 opacity: 0.97;
+=======
+    /* background: url(../Footer/footerback.jpeg); */
+    opacity: 0.97;
+    /* box-shadow: 0px 4px 20px 7px rgb(0 0 0 / 4%); */
+>>>>>>> Stashed changes
 }
-.nav-item{
-    padding-left: 16px;
-    padding-right: 16px;
-}
-.nav-link{
-    color:
-    #ea49fe;
 
+.nav-fill {
+    display: flex;
+    justify-content: space-evenly;
 }
-.nav-link:focus{
+
+.nav-item {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.nav-link {
+    color: gold;
+    gap: 2%;
+    font-size: 115%;
+}
+
+.nav-link:focus {
     color: #f3fbfd;
 }
-.navbar-logo img{
+
+.navbar-logo img {
     width: 50px;
     height: 50px;
     margin-left: 30px;
 }
-.navbar .animated-button button{
+
+.dropdown-menu {
+
+    --bs-dropdown-bg: #faebd7;
+}
+
+.navbar .animated-button button {
     width: 160px;
     height: 48px;
     border-radius: 10px;
     border-style: none;
     background-color: rgb(255, 255, 255);
     font-weight: 800;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #1fbde8;
     position: absolute;
     z-index: 2;
 }
-.navbar .animated-button .background{
+
+.navbar .animated-button .background {
     width: 160px;
     height: 48px;
     background-color: #049ac3;
     border-radius: 10px;
-    position:relative;
+    position: relative;
     z-index: 1;
     transition: transform .1s ease-in-out;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #ded31fd9;
 }
-.navbar .animated-button:hover .background{
+
+.navbar .animated-button:hover .background {
     transform: rotate(-3deg) scale(1.02) translate(3px, 0px);
 }
-@media (min-width: 1420px){
+
+@media (min-width: 1420px) {
     .navbar-expand-custom {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
+
     .navbar-expand-custom .navbar-nav {
         flex-direction: row;
     }
+
     .navbar-expand-custom .dropdown-menu {
         position: absolute;
     }
+
     .navbar-expand-custom .nav-link {
         padding-right: .5rem;
         padding-left: .5rem;
     }
-    .navbar-expand-custom > .container {
+
+    .navbar-expand-custom>.container {
         flex-wrap: nowrap;
     }
+
     .navbar-expand-custom .navbar-collapse {
-        display: flex!important;
+        display: flex !important;
         flex-basis: auto;
     }
+
     .navbar-expand-custom .navbar-toggler {
         display: none;
     }

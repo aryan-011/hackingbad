@@ -1,6 +1,6 @@
 .Footer-box {
     /* background-color: #BBEFF6; */
-    background: url(footerback.jpeg);
+    background-image: linear-gradient(to left,rgba(0, 17, 8, 0.7),rgba(2, 14, 65, 0.7)),url("../../../public/banner-quote.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0px;
@@ -12,6 +12,7 @@
 .Footer-box .FooterWrap {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     line-height: 38.79px;
     font-weight: 400;
 }
