@@ -13,6 +13,7 @@ const Homepage = () => {
     <GameDev/>
     <Application/>
     
+    {/* <QuoteEcosystem/> */}
     <Footer/>
     </>
   )

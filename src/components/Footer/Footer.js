@@ -3,12 +3,19 @@ import footerimg from './footerimg.webp'
 import facebook from './images/facebook.png'
 import linkedin from './images/linkedin.png'
 import instagram from './images/instagram.png'
+import '../HomePageContent/QuoteEcosystem.css'
 import './footerStyles.css'
 function Footer() {
     return (
         <>
             <div className='Footer-box'>
                 <div className='FooterWrap'>
+                    {/* <div className='background-banner'>
+                        <div className='text-description-ecosystem'>
+                            <h2 className='heading-ecosystem'>Experience A Learning  <br />Ecosystem Like No Other!</h2>
+
+                        </div>
+                    </div> */}
                     <div className='footerimg'>
                         <img src={footerimg} className='footer-logo' />
                     </div>
@@ -16,7 +23,7 @@ function Footer() {
                         <ul className='unstyled-list'>
                             <li><a href='#'>Join US</a></li>
                             <li><a href='#'>Contact US</a></li>
-                            <li><a href='https://codevita.live/faqs/ 'target='_blank'>FAQ</a></li>
+                            <li><a href='https://codevita.live/faqs/ ' target='_blank'>FAQ</a></li>
                             <li><a href="https://codevita.live/301-2/" target='_blank'>Explore other courses</a></li>
 
                         </ul>

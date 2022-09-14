@@ -2,6 +2,7 @@ import React from 'react'
 import Login from '../Login';
 import "./Application.css";
 import InfoBanner from './InfoBanner';
+import Experience from './features/Experience';
 const Application = () => {
   return (<>
     <div className='application'>
@@ -44,14 +45,9 @@ Apply Now
 
  
  <div className='perks'>
-<div style={{display:"flex",paddingTop:"7rem",flexDirection:"column",marginLeft:"11rem"}}>
+<div>
 
-<InfoBanner />
-<InfoBanner /> 
-  </div>
-  <div style={{display:"flex",position:"absolute",paddingTop:"7rem",flexDirection:"column",left:"31%",top:"114rem"}}>
- <div><InfoBanner /></div>
- <InfoBanner />
+<Experience/>
   </div>
 <div className='application-form'> <Login/></div>
 

@@ -6,6 +6,10 @@
     padding-bottom: 2rem;
     background-color:antiquewhite;
 }
+.gamedev_wrap
+{
+    box-shadow: 0px 4px 20px 7px rgb(0 0 0 / 4%);
+}
 .description{
     display: flex;
     flex-direction: column;
