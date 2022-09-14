@@ -1,0 +1,70 @@
+.application{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7rem;
+    padding-left: 5rem;
+    padding-bottom: 10rem;
+    background-color:antiquewhite;
+    
+    
+    
+}
+.description-application{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 29%;
+
+}
+.heading-application{
+    margin-bottom: 2rem;
+}
+.application-para{
+    font-size: larger;
+    
+}
+.bold-para{
+    font-weight: bolder;
+    color: #585555;
+    font-style: italic;
+}
+
+
+.app-form{
+    height: 16.75rem;
+    width:30.375rem;
+    border-radius: 0.5%;
+    align-self:center;
+    margin-right: 5rem;
+}
+
+.feature-strip{
+    padding-top: 1rem;
+    height: 6rem;
+    width: 100%;
+    background-image:url("../../../public/strip.jpg");
+    background-size: cover;
+}
+
+.feature-text{
+    margin-left: 45%;
+    color: #EEEEEE;
+    font-size: 3rem;
+}
+.feature-form{
+    display: flex;
+    flex-direction: column;
+}
+.perks{
+    height: 50rem;
+    background-color: antiquewhite;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.application-form{
+    width: 100%;
+    margin-left: 50%;
+    padding-top: 20rem;
+    margin-top: 30%;
+}

@@ -5,13 +5,15 @@ import GameDev from '../components/HomePageContent/GameDev'
 import QuoteEcosystem from '../components/HomePageContent/QuoteEcosystem'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
+import Application from '../components/HomePageContent/Application'
 const Homepage = () => {
   
   return (
     <>
-    {/* <Header/> */}
+    
     <Banner/>
     <GameDev/>
+    <Application/>
     <QuoteEcosystem/>
     <Footer/>
     </>
