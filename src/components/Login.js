@@ -65,25 +65,27 @@ const Login = () => {
   const handlesubmit = async (e) => {
     e.preventDefault();
     const userdata = {
-      username: name,
-      useremail: email,
-      userinstitution: institution,
-      userqualifications:qualifications,
-      userlinkedin:linkedin,
-      userknow:know,
-      useradditional:additional,
-      userdomain:domain
+      name: name,
+      email: email,
+      Name_Of_your_institution: institution,
+      Your_qualifications:qualifications,
+      Linkedin_URL:linkedin,
+      How_did_you_get_to_know_about_us:know,
+      // Additional_File:additional,
+      // Which_track_did_you_want_to_pursue:domain
     };
     await axios
       .post(
-        "url",
-        JSON.stringify(userdata)
+        "http://127.0.0.1:8000/api/application/",
+        userdata
       )
       .then((result) => {
         setMessage(result.data.msg);
         console.log(result.data);
         console.log(result.data.msg);
-      });
+      }).catch(e=>{
+        console.log("this is error",e)
+      })
     }
 
   return (
@@ -93,11 +95,11 @@ const Login = () => {
 
         <form className='form-align' onSubmit={(e)=>handlesubmit(e)}>
           <div className="user-box">
-            <input type="text" name="" required="" onChange={(e) => handleName(e)}></input>
+            <input type="text" name=""  onChange={(e) => handleName(e)} required></input>
             <label>Name</label>
           </div>
           <div className="user-box">
-            <input type="text" name="" required="" onChange={(e) => handleEmail(e)}></input>
+            <input type="text" name="" required="" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" title="enter @ followed by domain name" onChange={(e) => handleEmail(e)}></input>
             <label>Email</label>
           </div>
           <div className="user-box">
@@ -163,18 +165,18 @@ const Login = () => {
           </div>
           <div className="user-box">
             <p className='track-choice'>Take a screenshot of your response and upload it on Google Drive. Under the viewer sharing tab, select anyone with the link. Insert the drive link here. Your application would be deleted otherwise.</p>
-            <input type="text" name="" required=""></input>
+            <input type="text" name="" required></input>
 
           </div>
 
 
-          <a type='submit' className='hi' href="/">
+          <button type='submit' className='hi'  >
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             Submit Application
-          </a>
+          </button>
         </form>
 
 
