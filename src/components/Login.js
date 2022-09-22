@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import axios from 'axios'
 import "./Login.css"
-import QuoteEcosystem from "../components/HomePageContent/QuoteEcosystem"
+// import QuoteEcosystem from "../components/HomePageContent/QuoteEcosystem"
 const Login = () => {
   
   const [name,setName]=useState('');
@@ -12,8 +12,8 @@ const Login = () => {
   const [linkedin,setLinkedin]=useState('');
   const [domain,setDomain]=useState('');
   const [know,setKnow]=useState('');
-  const [additional,setAdditional]=useState('');
-  const [mesage,setMessage]= useState('');
+  // const [additional,setAdditional]=useState('');
+  // const [mesage,setMessage]= useState('');
 
   const handleName = (event) => {
     const name_t=event.target.value;
@@ -56,11 +56,11 @@ const Login = () => {
     setDomain(domain_t)
   }
 
-  const handleAdditional = (event) => {
-    const additional_t=event.target.value;
-    console.log(additional_t)
-    setAdditional(additional_t)
-  }
+  // const handleAdditional = (event) => {
+  //   const additional_t=event.target.value;
+  //   console.log(additional_t)
+  //   setAdditional(additional_t)
+  // }
 
   const handlesubmit = async (e) => {
     e.preventDefault();
@@ -80,7 +80,7 @@ const Login = () => {
         userdata
       )
       .then((result) => {
-        setMessage(result.data.msg);
+        
         console.log(result.data);
         console.log(result.data.msg);
       }).catch(e=>{
@@ -121,7 +121,7 @@ const Login = () => {
             <label>How did you get to know about us?</label>
           </div>
           <div className="user-box">
-            <input type="text" name="option" required="" onChange={(e) => handleAdditional(e)}></input>
+            <input type="text" name="option" required="" ></input>
             <label>Additional File</label>
           </div>
           <div className="user-box">
